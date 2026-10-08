@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Death Race</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="menu">
+    <h1>DEATH RACE</h1>
+
+    <p>2 PLAYER ONLINE RACING</p>
+
+    <button id="startBtn">ENTER RACE</button>
+
+    <div id="status">Waiting...</div>
+</div>
+
+<div id="gameUI">
+
+    <div class="topbar">
+
+        <div>
+            <span>YOU</span>
+            <div class="health">
+                <div id="myHealth"></div>
+            </div>
+        </div>
+
+        <div id="timer">00:00</div>
+
+        <div>
+            <span>ENEMY</span>
+            <div class="health">
+                <div id="enemyHealth"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <canvas id="game"></canvas>
+
+    <div id="controls">
+        <div>
+            <b>WASD</b> Move
+        </div>
+
+        <div>
+            <b>SPACE</b> Gun
+        </div>
+
+        <div>
+            <b>R</b> Rocket
+        </div>
+
+        <div>
+            <b>B</b> Bomb
+        </div>
+
+        <div>
+            <b>SHIFT</b> Nitro
+        </div>
+    </div>
+
+</div>
+
+<script src="game.js"></script>
+
+</body>
+</html>
